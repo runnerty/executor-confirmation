@@ -1,12 +1,12 @@
-# Confirmation executor for [Runnerty]:
+# Confirm executor for [Runnerty]:
 
 Executor for Runnerty integrated with Telegram. It sends a message to your Telegram chat and waits for an answer to continue or stop the chain. 
 
 ### Configuration sample:
 ```json
 {
-  "id": "confirmation_default",
-  "type": "runnerty-executor-confirmation",
+  "id": "confirm_default",
+  "type": "runnerty-executor-confirm",
   "token": "ABC123",
   "chatId": "ABC123"
 }
@@ -15,7 +15,7 @@ Executor for Runnerty integrated with Telegram. It sends a message to your Teleg
 ### Plan sample:
 ```json
 {
-  "id":"confirmation_default",
+  "id":"confirm_default",
   "message":"Message" ,
   "confirm_button_message":"ok button message",
   "cancel_button_message": "cancel button message",
@@ -28,7 +28,6 @@ If you set a timeout to your proccess, by default, this will end with cancel. Th
 
 ```json
 {
-  ...
   "action_on_timeout": "ok"
 }
 ```
@@ -37,7 +36,6 @@ There is also an option to include authorized users. Telegram's user name or Id 
 
 ```json
 {
-  ...
   "authorized_users": ["user_name_1", "user_id_2"]
 }
 ```
