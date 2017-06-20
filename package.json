@@ -1,7 +1,7 @@
 {
-  "name": "runnerty-executor-confirmation",
+  "name": "@runnerty/executor-confirmation",
   "version": "1.0.0",
-  "description": "",
+  "description": "Executor for Runnerty integrated with Telegram. It sends a message to your Telegram chat and waits for an answer to continue or stop the chain.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,6 +9,6 @@
   "dependencies": {
     "node-telegram-bot-api": "^0.26.0"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Coderty",
+  "license": "MIT"
 }
