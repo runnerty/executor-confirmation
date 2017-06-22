@@ -1,6 +1,6 @@
 {
   "name": "@runnerty/executor-confirmation",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Executor for Runnerty integrated with Telegram. It sends a message to your Telegram chat and waits for an answer to continue or stop the chain.",
   "main": "index.js",
   "scripts": {
