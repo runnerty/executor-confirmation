@@ -5,8 +5,8 @@ Executor for Runnerty integrated with Telegram. It sends a message to your Teleg
 ### Configuration sample:
 ```json
 {
-  "id": "confirm_default",
-  "type": "@runnerty/executor-confirm",
+  "id": "confirmation_default",
+  "type": "@runnerty/executor-confirmation",
   "token": "ABC123",
   "chatId": "ABC123"
 }
@@ -15,7 +15,7 @@ Executor for Runnerty integrated with Telegram. It sends a message to your Teleg
 ### Plan sample:
 ```json
 {
-  "id":"confirm_default",
+  "id":"confirmation_default",
   "message":"Message" ,
   "confirm_button_message":"ok button message",
   "cancel_button_message": "cancel button message",
