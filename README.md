@@ -6,7 +6,7 @@ Executor for Runnerty integrated with Telegram. It sends a message to your Teleg
 ```json
 {
   "id": "confirmation_default",
-  "type": "@runnerty/executor-confirmation",
+  "type": "@runnerty-executor-confirmation",
   "token": "ABC123",
   "chatId": "ABC123"
 }
