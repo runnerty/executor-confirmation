@@ -76,7 +76,7 @@ class confirmExecutor extends Execution {
             let endOptions = {
               end: "error",
               messageLog: "Chain stop forced by user " + msg.from.first_name + " " + msg.from.last_name,
-              execute_err_return: "Chain stop forced by user " + msg.from.first_name + " " + msg.from.last_name
+              err_output: "Chain stop forced by user " + msg.from.first_name + " " + msg.from.last_name
             };
 
             //Send the cancellation message with the name of the user who cancelled
@@ -124,7 +124,7 @@ class confirmExecutor extends Execution {
       let endOptions = {
         end: "error",
         messageLog: "Process killed, reason: " + reason,
-        execute_err_return: "Process killed, reason: " + reason
+        err_output: "Process killed, reason: " + reason
       };
 
       //Stop polling
