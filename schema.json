@@ -4,12 +4,7 @@
   "definitions": {
     "config": {
       "type": "object",
-      "required": [
-        "id",
-        "type",
-        "token",
-        "chatId"
-      ],
+      "required": ["id", "type", "token", "chatId"],
       "properties": {
         "id": {
           "type": "string"
