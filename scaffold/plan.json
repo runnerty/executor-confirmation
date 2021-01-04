@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/runnerty/schemas/master/schemas/3.0/plan.json",
+  "chains": [
+    {
+      "id": "CHAIN_CONFIRMATION_SAMPLE",
+      "name": "CONFIRMATION module example chain",
+      "defaults_processes": {
+        "notifications": {
+          "on_start": [
+            {
+              "id": "console_default",
+              "message": "@GETDATE('YYYY-MM-DD HH:mm:ss') START: PROCESS @GV(PROCESS_ID)"
+            }
+          ],
+          "on_fail": [
+            {
+              "id": "console_default",
+              "message": "@GETDATE('YYYY-MM-DD HH:mm:ss') ERROR: PROCESS @GV(PROCESS_ID): @GV(PROCESS_EXEC_ERR_OUTPUT)",
+              "mode": "error"
+            }
+          ],
+          "on_end": [
+            {
+              "id": "console_default",
+              "message": "@GETDATE('YYYY-MM-DD HH:mm:ss') END: PROCESS @GV(PROCESS_ID)"
+            }
+          ]
+        }
+      },
+      "processes": [
+        {
+          "id": "CONFIRMATION_SAMPLE",
+          "name": "CONFIRMATION SAMPLE",
+          "exec": {
+            "id": "confirmation_default",
+            "message": "Message",
+            "confirm_button_message": "ok button message",
+            "cancel_button_message": "cancel button message",
+            "confirm_message": "confirmation message",
+            "cancel_message": "cancel message"
+          }
+        }
+      ]
+    }
+  ]
+}

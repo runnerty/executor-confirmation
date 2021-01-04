@@ -1,0 +1,10 @@
+{
+  "executors": [
+    {
+      "id": "confirmation_default",
+      "type": "@runnerty-executor-confirmation",
+      "token": "ABC123",
+      "chatId": "ABC123"
+    }
+  ]
+}
