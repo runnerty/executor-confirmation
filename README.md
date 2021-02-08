@@ -19,13 +19,13 @@ Executor for Runnerty integrated with Telegram. It sends a message to your Teleg
 Through NPM
 
 ```bash
-npm i @runnerty/executor-confirm
+npm i @runnerty/executor-confirmation
 ```
 
 You can also add modules to your project with [runnerty-cli]
 
 ```bash
-npx runnerty-cli add @runnerty/executor-confirm
+npx runnerty-cli add @runnerty/executor-confirmation
 ```
 
 This command installs the module in your project, adds example configuration in your `config.json` and creates an example plan of use.
@@ -33,7 +33,7 @@ This command installs the module in your project, adds example configuration in 
 If you have installed [runnerty-cli] globally you can include the module with this command:
 
 ```bash
-rty add @runnerty/executor-confirm
+rty add @runnerty/executor-confirmation
 ```
 
 ### Configuration sample:
