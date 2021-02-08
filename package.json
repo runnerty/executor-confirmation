@@ -7,7 +7,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/runnerty/executor-confirm.git"
+    "url": "git+https://github.com/runnerty/executor-confirmation.git"
   },
   "scripts": {
     "lint": "eslint '**/*.js' && prettier --check '**'"
@@ -16,12 +16,12 @@
     "runnerty",
     "executor",
     "telegram",
-    "confirm"
+    "confirmation"
   ],
   "bugs": {
-    "url": "https://github.com/runnerty/executor-confirm/issues"
+    "url": "https://github.com/runnerty/executor-confirmation/issues"
   },
-  "homepage": "https://github.com/runnerty/executor-confirm#readme",
+  "homepage": "https://github.com/runnerty/executor-confirmation#readme",
   "dependencies": {
     "node-telegram-bot-api": "~0.51.0",
     "@runnerty/module-core": "~3.0.2"
