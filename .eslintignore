@@ -1,4 +1,8 @@
-#IDE
 .vscode
-#
+.npmignore
+api
 node_modules
+samples
+*.json
+.DS_Store
+LICENSE
