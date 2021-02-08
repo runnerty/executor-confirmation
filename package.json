@@ -15,6 +15,7 @@
   "keywords": [
     "runnerty",
     "executor",
+    "telegram",
     "confirm"
   ],
   "bugs": {
@@ -22,13 +23,13 @@
   },
   "homepage": "https://github.com/runnerty/executor-confirm#readme",
   "dependencies": {
-    "node-telegram-bot-api": "0.51.0",
-    "@runnerty/module-core": "alpha"
+    "node-telegram-bot-api": "~0.51.0",
+    "@runnerty/module-core": "~3.0.2"
   },
   "devDependencies": {
-    "eslint": "^7.17.0",
-    "eslint-config-prettier": "^7.1.0",
-    "eslint-plugin-prettier": "^3.3.0",
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-prettier": "^3.3.1",
     "prettier": "^2.2.1"
   }
 }
