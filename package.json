@@ -1,6 +1,6 @@
 {
   "name": "@runnerty/executor-confirmation",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Executor for Runnerty integrated with Telegram. It sends a message to your Telegram chat and waits for an answer to continue or stop the chain.",
   "author": "Runnerty Tech",
   "license": "MIT",
@@ -23,12 +23,12 @@
   },
   "homepage": "https://github.com/runnerty/executor-confirmation#readme",
   "dependencies": {
-    "@runnerty/module-core": "~3.0.4",
+    "@runnerty/module-core": "~3.0.5",
     "node-telegram-bot-api": "~0.51.0"
   },
   "devDependencies": {
-    "eslint": "^7.19.0",
-    "eslint-config-prettier": "^7.2.0",
+    "eslint": "^7.20.0",
+    "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-prettier": "^3.3.1",
     "prettier": "^2.2.1"
   }
